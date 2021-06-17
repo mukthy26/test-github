@@ -50,10 +50,10 @@ ZYTE_SMARTPROXY_APIKEY = '56600d9c02dd476aa26c3ad6d78ab609'
 #   'Accept-Language': 'en',
 #}
 
-#DEFAULT_REQUEST_HEADERS = {
-#   'X-Crawlera-Profile': 'desktop',
-#   'X-Crawlera-Cookies': 'disable',
-#}
+DEFAULT_REQUEST_HEADERS = {
+   'X-Crawlera-Profile': 'desktop',
+   'X-Crawlera-Cookies': 'disable',
+}
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
