@@ -24,8 +24,8 @@ DOWNLOADER_MIDDLEWARES = {
 #'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
 }
 ZYTE_SMARTPROXY_ENABLED = True
-ZYTE_SMARTPROXY_URL = 'blackrock.crawlera.com:8011'
-ZYTE_SMARTPROXY_APIKEY = '247951dc2dca4636ace8159db3534fc6'
+ZYTE_SMARTPROXY_URL = 'proxy.crawlera.com:8011'
+ZYTE_SMARTPROXY_APIKEY = '56600d9c02dd476aa26c3ad6d78ab609'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -50,10 +50,10 @@ ZYTE_SMARTPROXY_APIKEY = '247951dc2dca4636ace8159db3534fc6'
 #   'Accept-Language': 'en',
 #}
 
-DEFAULT_REQUEST_HEADERS = {
-   'X-Crawlera-Profile': 'desktop',
-   'X-Crawlera-Cookies': 'disable',
-}
+#DEFAULT_REQUEST_HEADERS = {
+#   'X-Crawlera-Profile': 'desktop',
+#   'X-Crawlera-Cookies': 'disable',
+#}
 
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
